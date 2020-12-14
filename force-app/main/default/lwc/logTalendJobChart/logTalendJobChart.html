@@ -1,0 +1,10 @@
+<template>
+    <div class="slds-card">
+        <c-chart type="line" responsive="true">
+            <c-dataset labels={resultLabelList.data}>
+                    <c-data label="My First dataset" detail={resultDetailList.data} bordercolor="rgba(119, 185, 242, 1)"></c-data>
+             </c-dataset>
+             <c-title text={titleJobName}></c-title>
+        </c-chart>
+    </div>
+</template>
